@@ -1,0 +1,18 @@
+.menu li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.menu li a {
+    color:darkgoldenrod;
+}
+
+.item-band {
+    color: darkblue;
+    font-size: 16px;
+}
+
+.item-band span {
+    margin: 0 20px 0 20px;
+}

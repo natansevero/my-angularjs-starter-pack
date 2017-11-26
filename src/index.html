@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="MyStarterPack">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AngularJS Stater Pack</title>
+    <!-- build:css assets/css/master.min.css -->
+        <link rel="stylesheet" href="./assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- endbuild -->
+</head>
+<body>
+    <h1>AngularJS starter pack by Natan Severo</h1>
+    <ul class="menu">
+        <li><a href="/#!/hello">Hello route</a></li>
+        <li><a href="/#!/bands">Bands route</a></li>
+    </ul>
+    <hr>
+    <ng-view></ng-view>
+</body>
+    <!-- build:js assets/js/master.min.js -->
+        <script src="./assets/bower_components/jquery/dist/jquery.js"></script>
+        <script src="./assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="./assets/bower_components/angular/angular.min.js"></script>
+        <script src="./assets/bower_components/angular-route/angular-route.min.js"></script>
+        <script src="./app/app.module.js"></script>
+        <script src="./app/app.routes.js"></script>
+        <script src="./app/controllers/hello.controller.js"></script>
+        <script src="./app/controllers/bands.controller.js"></script>
+        <script src="./app/services/bands.service.js"></script>
+    <!-- endbuild -->
+</html>
