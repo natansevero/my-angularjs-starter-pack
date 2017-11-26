@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "gulp dev-server",
-    "prod": "gulp"
+    "prod": "gulp",
+    "bower": "bower install"
   },
   "repository": {
     "type": "git",
